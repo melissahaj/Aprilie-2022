@@ -8,12 +8,12 @@ git init
 git status
 
 # Adaugare fisiere pentru a fi incluse in urmatorul commit
-git add NUME_FISIER NUME_FISIER NUME_FISIER
+git add NUME_FISIER NUME_FISIER
 # Adauga toate fisierele
 git add .
 
 
-# Stergere fisirere din lista de modificari pt committ
+# Stergere fisirere din lista de modificari pt commit
 git rm --cached NUME_FISIER
 
 # commit = salveaza starea curenta
@@ -40,3 +40,8 @@ git push
 
 # Descarcam cele mai noi modificari
 git pull
+
+#ceva
+
+#modificare
+#ceva 
