@@ -1,4 +1,0 @@
-age = input("Varsta: ")
-age = int(age) #age devine numar intreg
-
-print("Jumatate din varsta: ", age / 2)
