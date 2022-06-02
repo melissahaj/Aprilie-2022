@@ -13,18 +13,18 @@
 
 class Nothebook:
     
-def __init__(self):
-    self.pag = 300
-    self.colour = blue
-    self.index = list()
-    self.written_pag = 270
+def __init__(self, nr_of_pag, color):
+    self.nr_of_pag = nr_of_pag
+    self.colour = color
+    self.content = []
 
 def write(self):
-    pass
+    if self.get_empty_pag() != 0:
+        self.content.append(content)
 
 def get_empty_pag(self):
-    return self.pag - self.written_pag
+    return self.nr_of_pag - len(self.content)
 
 def get_written_pag(self):
-    return self.written_pag
+    return len(self.content)
 
