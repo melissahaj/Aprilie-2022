@@ -1,3 +1,8 @@
+"""
+Documentatie pentru operatori
+"""
+
+
 print(3 + 4) 
 # print (7)
 print(1 - 2)
@@ -42,7 +47,4 @@ print("i mai este egal cu 5?")
 print(i == 5)
 
 # in line cu diez anulezi o linie de cod si poti face un comentariu sau ctrl slash / este un shortcut pentru a comenta o linie 
-"""
-Documente operatori
-"""
-# cu exemplul de mai sus se mai poate comenta 
+
