@@ -1,0 +1,27 @@
+Rapoarte/Grafice criptomonede - CLI
+
+# Interfata:
+CLI
+
+# Argumente
+Obligatorii:
+- Simbol criptomoneda
+- Data start
+
+Optionale:
+- Data stop -> default data curenta
+
+# Cerinte:
+1. Vreau sa obtin un raport grafic cu evolutia in raport cu EURO a unei criptomonede pe o perioda finita.
+2. Alaturi de grafic vreau sa vad si data gand a fost generat.
+3. Vreau sa mai am in raport:
+- totalul tranzationat in perioada aleasa
+- numarul tranzactiilor
+4. Raportul trebuie generat in 2 formate:
+- pdf
+- png
+
+# Cerinte non-functionale
+- Logging
+- Trebuie folosit modulul argparse, pt. argumente
+- Tratarea erorilor cu strictete.
